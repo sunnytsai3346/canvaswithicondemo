@@ -1,0 +1,34 @@
+.rectangle {
+    width: 120px;
+    height: 40px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .rectangle.longpress {
+    background-color: lightblue;
+  }
+  .clickable-area {
+    width: 120px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0; /* Hide the button but keep it clickable */
+  }
+
+  
+  
+  .clickable-area img {
+    width: 40px;
+    height: 40px;
+    pointer-events: none; /* Prevent the image from blocking the button click */
+  }
