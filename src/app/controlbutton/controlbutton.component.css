@@ -1,18 +1,18 @@
-.rectangle {
+.control-button-div {
     width: 120px;
-    height: 40px;
+    height: 60px;
     background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
   }
-  .rectangle.longpress {
+  .control-button-div.longpress {
     background-color: lightblue;
   }
-  .clickable-area {
+  .control-button-input {
     width: 120px;
-    height: 40px;
+    height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,8 +27,8 @@
 
   
   
-  .clickable-area img {
+  .control-button-input img {
     width: 40px;
     height: 40px;
-    pointer-events: none; /* Prevent the image from blocking the button click */
+    /*pointer-events: none; /* Prevent the image from blocking the button click */
   }
